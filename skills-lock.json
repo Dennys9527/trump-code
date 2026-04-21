@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "trump-perspective": {
+      "source": "alchaincyf/trump-skill",
+      "sourceType": "github",
+      "computedHash": "662724d0db23eb59ac36bf87d7745e245c7e241098488c4e9143cfbb2a8c2755"
+    }
+  }
+}
