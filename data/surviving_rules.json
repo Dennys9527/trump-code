@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-04-26T14:40:15Z",
-    "evolved_rules_added": 50
+    "last_evolution": "2026-04-27T15:45:19Z",
+    "evolved_rules_added": 40
   },
   "rules": [
     {
@@ -12801,7 +12801,12 @@
       "parents": [
         "open_jobs+open_tariffs",
         "kw_deal+kw_thank_you_for_your_attention"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -13721,7 +13726,12 @@
       "parents": [
         "is_friday+kw_beautiful",
         "kw_china+kw_thank_you_for_your_attention"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -13742,7 +13752,12 @@
       "origin": "mutation_remove",
       "born_date": "2026-04-26",
       "weight": 1.0,
-      "parent": "kw_signed+open_tariff+volume_falling_3d"
+      "parent": "kw_signed+open_tariff+volume_falling_3d",
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14021,7 +14036,12 @@
       "parents": [
         "kw_trade+open_inflation",
         "kw_beautiful+kw_tariff_2plus"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
