@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-05-04T15:57:54Z",
-    "evolved_rules_added": 47
+    "last_evolution": "2026-05-05T15:50:31Z",
+    "evolved_rules_added": 41
   },
   "rules": [
     {
@@ -12829,7 +12829,12 @@
       "parents": [
         "kw_inflation+open_china",
         "kw_signed+kw_tariffs_2plus"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -13307,6 +13312,28 @@
         "wrong": 0,
         "streak": 0
       }
+    },
+    {
+      "features": [
+        "kw_trade",
+        "open_jobs",
+        "kw_beautiful"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "defe855e20d8",
+      "n_cond": 3,
+      "train_trades": 7,
+      "train_win_rate": 100.0,
+      "train_avg": 3.036,
+      "test_trades": 5,
+      "test_win_rate": 80.0,
+      "test_avg": 0.514,
+      "combined_score": 90.0,
+      "origin": "mutation_replace",
+      "born_date": "2026-05-05",
+      "weight": 1.0,
+      "parent": "is_friday+kw_beautiful+open_jobs"
     },
     {
       "features": [
@@ -14156,7 +14183,12 @@
       "parents": [
         "kw_interest_rate+open_tariff",
         "kw_interest_rate+kw_tremendous"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14778,32 +14810,6 @@
       "origin": "distilled",
       "born_date": "2026-03-15",
       "weight": 1.0,
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "open_tariff",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "id": "365c18cf7263",
-      "n_cond": 2,
-      "train_trades": 13,
-      "train_win_rate": 69.2,
-      "train_avg": 0.286,
-      "test_trades": 3,
-      "test_win_rate": 100.0,
-      "test_avg": 0.635,
-      "combined_score": 84.6,
-      "origin": "mutation_remove",
-      "born_date": "2026-03-17",
-      "weight": 1.0,
-      "parent": "kw_signed+open_tariff+volume_falling_3d",
       "learn_stats": {
         "correct": 0,
         "wrong": 0,
