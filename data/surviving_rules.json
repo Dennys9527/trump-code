@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-05-05T15:50:31Z",
-    "evolved_rules_added": 41
+    "last_evolution": "2026-05-06T16:00:55Z",
+    "evolved_rules_added": 45
   },
   "rules": [
     {
@@ -13333,7 +13333,12 @@
       "origin": "mutation_replace",
       "born_date": "2026-05-05",
       "weight": 1.0,
-      "parent": "is_friday+kw_beautiful+open_jobs"
+      "parent": "is_friday+kw_beautiful+open_jobs",
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14332,6 +14337,31 @@
     },
     {
       "features": [
+        "kw_trade",
+        "kw_inflation",
+        "kw_economy"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "4a73348e82cb",
+      "n_cond": 3,
+      "train_trades": 11,
+      "train_win_rate": 72.7,
+      "train_avg": 1.631,
+      "test_trades": 4,
+      "test_win_rate": 100.0,
+      "test_avg": 0.707,
+      "combined_score": 86.4,
+      "origin": "crossover",
+      "born_date": "2026-05-06",
+      "weight": 1.0,
+      "parents": [
+        "kw_inflation+kw_trillion",
+        "kw_economy+kw_interest_rate"
+      ]
+    },
+    {
+      "features": [
         "kw_tariff_2plus",
         "kw_economy"
       ],
@@ -14785,31 +14815,6 @@
         "kw_thank_you_for_your_attention+kw_trade",
         "kw_deal_2plus+kw_dow_2plus"
       ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_deal"
-      ],
-      "direction": "LONG",
-      "hold": 1,
-      "id": "a3fd0ab2e0f7",
-      "n_cond": 2,
-      "train_trades": 23,
-      "train_win_rate": 69.6,
-      "train_avg": 0.405,
-      "test_trades": 3,
-      "test_win_rate": 100.0,
-      "test_avg": 0.575,
-      "combined_score": 84.8,
-      "origin": "distilled",
-      "born_date": "2026-03-15",
-      "weight": 1.0,
       "learn_stats": {
         "correct": 0,
         "wrong": 0,
