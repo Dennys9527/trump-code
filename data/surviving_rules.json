@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-05-20T16:50:25Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-05-21T16:37:35Z",
+    "evolved_rules_added": 43
   },
   "rules": [
     {
@@ -14837,7 +14837,12 @@
       "parents": [
         "kw_america_first+kw_beautiful",
         "kw_dow_2plus+kw_interest_rate"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     }
   ]
 }
