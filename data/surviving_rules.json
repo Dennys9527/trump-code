@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-06-02T18:03:06Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-06-03T18:20:36Z",
+    "evolved_rules_added": 47
   },
   "rules": [
     {
@@ -13038,7 +13038,12 @@
       "parents": [
         "is_friday+kw_tariff_2plus",
         "is_friday+kw_thank_you_for_your_attention"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -13706,7 +13711,12 @@
       "parents": [
         "kw_agreement+kw_china",
         "kw_interest_rate+kw_signed"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
