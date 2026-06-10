@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-06-09T16:29:09Z",
-    "evolved_rules_added": 44
+    "last_evolution": "2026-06-10T16:56:23Z",
+    "evolved_rules_added": 47
   },
   "rules": [
     {
@@ -13196,6 +13196,30 @@
     },
     {
       "features": [
+        "is_friday",
+        "kw_never_let_you_down"
+      ],
+      "direction": "LONG",
+      "hold": 1,
+      "id": "ed99809067d8",
+      "n_cond": 2,
+      "train_trades": 7,
+      "train_win_rate": 85.7,
+      "train_avg": 0.878,
+      "test_trades": 5,
+      "test_win_rate": 100.0,
+      "test_avg": 0.384,
+      "combined_score": 92.9,
+      "origin": "crossover",
+      "born_date": "2026-06-10",
+      "weight": 1.0,
+      "parents": [
+        "is_friday+kw_interest_rate",
+        "avg_len_long+kw_india"
+      ]
+    },
+    {
+      "features": [
         "kw_signed",
         "kw_tariffs"
       ],
@@ -14108,7 +14132,12 @@
       "parents": [
         "kw_interest_rate+kw_signed",
         "open_inflation+open_trade"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14130,7 +14159,12 @@
       "origin": "mutation_replace",
       "born_date": "2026-06-09",
       "weight": 1.0,
-      "parent": "kw_thank_you_for_your_attention+open_energy+open_jobs"
+      "parent": "kw_thank_you_for_your_attention+open_energy+open_jobs",
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14813,36 +14847,6 @@
       "parents": [
         "kw_agreement+kw_thank_you_for_your_attention",
         "kw_china+kw_india"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_jobs",
-        "is_friday",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "id": "51613eace628",
-      "n_cond": 3,
-      "train_trades": 9,
-      "train_win_rate": 100.0,
-      "train_avg": 1.388,
-      "test_trades": 4,
-      "test_win_rate": 75.0,
-      "test_avg": 0.398,
-      "combined_score": 87.5,
-      "origin": "crossover",
-      "born_date": "2026-03-24",
-      "weight": 1.0,
-      "parents": [
-        "is_friday+kw_thank_you_for_your_attention",
-        "kw_deal_2plus+kw_europe"
       ],
       "learn_stats": {
         "correct": 0,
