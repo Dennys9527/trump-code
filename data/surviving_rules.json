@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-06-11T17:35:07Z",
-    "evolved_rules_added": 38
+    "last_evolution": "2026-06-12T16:41:23Z",
+    "evolved_rules_added": 42
   },
   "rules": [
     {
@@ -13689,7 +13689,12 @@
       "parents": [
         "kw_america_first+kw_maga",
         "kw_maga+open_trade"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -13711,7 +13716,12 @@
       "origin": "mutation_replace",
       "born_date": "2026-06-11",
       "weight": 1.0,
-      "parent": "kw_tariffs_2plus+kw_thank_you_for_your_attention+volume_falling_3d"
+      "parent": "kw_tariffs_2plus+kw_thank_you_for_your_attention+volume_falling_3d",
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
