@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-06-16T18:26:38Z",
-    "evolved_rules_added": 47
+    "last_evolution": "2026-06-17T16:53:09Z",
+    "evolved_rules_added": 43
   },
   "rules": [
     {
@@ -12634,7 +12634,12 @@
       "parents": [
         "kw_economy+kw_interest_rate",
         "kw_wonderful+open_trade"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -12659,7 +12664,12 @@
       "parents": [
         "kw_economy+kw_interest_rate",
         "kw_perfect+kw_thank_you_for_your_attention"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -13118,7 +13128,12 @@
       "parents": [
         "kw_india+kw_never_let_you_down",
         "kw_beautiful+kw_deal_2plus"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
