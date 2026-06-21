@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-06-20T15:43:30Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-06-21T15:49:23Z",
+    "evolved_rules_added": 44
   },
   "rules": [
     {
@@ -12673,6 +12673,31 @@
     },
     {
       "features": [
+        "kw_tremendous",
+        "open_dow",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "7f312641e1b5",
+      "n_cond": 3,
+      "train_trades": 5,
+      "train_win_rate": 100.0,
+      "train_avg": 1.902,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 1.488,
+      "combined_score": 100.0,
+      "origin": "crossover",
+      "born_date": "2026-06-21",
+      "weight": 1.0,
+      "parents": [
+        "kw_energy+kw_interest_rate",
+        "open_dow+open_interest_rate"
+      ]
+    },
+    {
+      "features": [
         "open_ukraine",
         "kw_maga"
       ],
@@ -13158,7 +13183,12 @@
       "parents": [
         "is_friday+open_thank_you_for_your_attention",
         "kw_thank_you_for_your_attention+open_energy"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -13890,7 +13920,12 @@
       "parents": [
         "kw_beautiful+kw_interest_rate",
         "excl_heavy+is_friday"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14820,31 +14855,6 @@
       "test_trades": 4,
       "test_win_rate": 75.0,
       "test_avg": 0.638,
-      "combined_score": 87.5,
-      "origin": "distilled",
-      "born_date": "2026-03-15",
-      "weight": 1.0,
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_interest_rate",
-        "kw_beautiful"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "id": "7ac641483d05",
-      "n_cond": 2,
-      "train_trades": 7,
-      "train_win_rate": 100.0,
-      "train_avg": 1.996,
-      "test_trades": 4,
-      "test_win_rate": 75.0,
-      "test_avg": 0.536,
       "combined_score": 87.5,
       "origin": "distilled",
       "born_date": "2026-03-15",
