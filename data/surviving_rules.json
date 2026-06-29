@@ -1,7 +1,7 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-06-28T15:15:16Z",
+    "last_evolution": "2026-06-29T16:51:23Z",
     "evolved_rules_added": 44
   },
   "rules": [
@@ -12724,7 +12724,12 @@
       "parents": [
         "kw_china+kw_india",
         "kw_deal_2plus+kw_europe"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
