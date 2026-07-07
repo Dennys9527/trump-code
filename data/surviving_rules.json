@@ -1,7 +1,7 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-07-06T16:50:09Z",
+    "last_evolution": "2026-07-07T16:24:26Z",
     "evolved_rules_added": 48
   },
   "rules": [
@@ -12811,7 +12811,12 @@
       "parents": [
         "is_friday+open_thank_you_for_your_attention",
         "kw_inflation+kw_jobs"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14670,6 +14675,28 @@
     },
     {
       "features": [
+        "kw_fake",
+        "kw_inflation",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "id": "3ef2a02f0f06",
+      "n_cond": 3,
+      "train_trades": 5,
+      "train_win_rate": 80.0,
+      "train_avg": 0.666,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 0.962,
+      "combined_score": 90.0,
+      "origin": "mutation_replace",
+      "born_date": "2026-07-07",
+      "weight": 1.0,
+      "parent": "excl_heavy+kw_inflation+open_thank_you_for_your_attention"
+    },
+    {
+      "features": [
         "kw_dow_2plus",
         "kw_president_of_the_united_states"
       ],
@@ -14836,35 +14863,6 @@
       "parents": [
         "kw_disaster+kw_india",
         "kw_thank_you_for_your_attention+open_tariffs"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_signed",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "id": "6956e4424683",
-      "n_cond": 2,
-      "train_trades": 18,
-      "train_win_rate": 77.8,
-      "train_avg": 0.891,
-      "test_trades": 6,
-      "test_win_rate": 100.0,
-      "test_avg": 0.921,
-      "combined_score": 88.9,
-      "origin": "crossover",
-      "born_date": "2026-05-24",
-      "weight": 1.0,
-      "parents": [
-        "kw_interest_rate+kw_signed",
-        "kw_perfect+kw_thank_you_for_your_attention"
       ],
       "learn_stats": {
         "correct": 0,
