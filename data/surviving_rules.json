@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-07-11T14:47:44Z",
-    "evolved_rules_added": 47
+    "last_evolution": "2026-07-12T14:51:40Z",
+    "evolved_rules_added": 48
   },
   "rules": [
     {
@@ -14132,7 +14132,12 @@
       "parents": [
         "kw_biden+kw_president_of_the_united_states",
         "kw_india+kw_never_let_you_down"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14779,7 +14784,12 @@
       "parents": [
         "kw_economy+open_jobs",
         "kw_deal+kw_perfect"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
