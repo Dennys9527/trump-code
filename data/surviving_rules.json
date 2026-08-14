@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-08-13T14:52:36Z",
-    "evolved_rules_added": 47
+    "last_evolution": "2026-08-14T14:46:28Z",
+    "evolved_rules_added": 48
   },
   "rules": [
     {
@@ -13730,6 +13730,32 @@
     },
     {
       "features": [
+        "open_tariffs",
+        "open_thank_you_for_your_attention",
+        "kw_thank_you_for_your_attention",
+        "kw_tariffs_2plus"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "ab96263d9268",
+      "n_cond": 4,
+      "train_trades": 7,
+      "train_win_rate": 85.7,
+      "train_avg": 2.92,
+      "test_trades": 4,
+      "test_win_rate": 100.0,
+      "test_avg": 0.572,
+      "combined_score": 92.9,
+      "origin": "crossover",
+      "born_date": "2026-08-14",
+      "weight": 1.0,
+      "parents": [
+        "is_friday+kw_tariffs_2plus",
+        "kw_thank_you_for_your_attention+open_tariffs"
+      ]
+    },
+    {
+      "features": [
         "kw_signed",
         "kw_tariffs"
       ],
@@ -14848,35 +14874,6 @@
       "born_date": "2026-05-05",
       "weight": 1.0,
       "parent": "is_friday+kw_beautiful+open_jobs",
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_agreement",
-        "kw_president_of_the_united_states"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "id": "eb47598b32ab",
-      "n_cond": 2,
-      "train_trades": 9,
-      "train_win_rate": 100.0,
-      "train_avg": 1.185,
-      "test_trades": 5,
-      "test_win_rate": 80.0,
-      "test_avg": 0.257,
-      "combined_score": 90.0,
-      "origin": "crossover",
-      "born_date": "2026-05-12",
-      "weight": 1.0,
-      "parents": [
-        "kw_agreement+kw_deal",
-        "kw_ban+kw_hereby"
-      ],
       "learn_stats": {
         "correct": 0,
         "wrong": 0,
