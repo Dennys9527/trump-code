@@ -1,7 +1,7 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-08-15T14:16:46Z",
+    "last_evolution": "2026-08-16T14:16:58Z",
     "evolved_rules_added": 47
   },
   "rules": [
@@ -14519,7 +14519,12 @@
       "parents": [
         "kw_interest_rate+kw_trade",
         "kw_beautiful+kw_tariffs_2plus"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
