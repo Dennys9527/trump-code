@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-09-22T17:53:39Z",
-    "evolved_rules_added": 42
+    "last_evolution": "2026-09-23T18:10:10Z",
+    "evolved_rules_added": 45
   },
   "rules": [
     {
@@ -14729,7 +14729,12 @@
       "parents": [
         "kw_energy+kw_perfect",
         "open_dow+open_trade"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
