@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-09-24T18:07:24Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-09-25T18:11:20Z",
+    "evolved_rules_added": 42
   },
   "rules": [
     {
@@ -14738,6 +14738,31 @@
     },
     {
       "features": [
+        "kw_agreement",
+        "kw_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "5126d4151acd",
+      "n_cond": 3,
+      "train_trades": 6,
+      "train_win_rate": 83.3,
+      "train_avg": 1.334,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 0.752,
+      "combined_score": 91.7,
+      "origin": "crossover",
+      "born_date": "2026-09-25",
+      "weight": 1.0,
+      "parents": [
+        "kw_perfect+kw_thank_you_for_your_attention",
+        "kw_agreement+kw_jobs"
+      ]
+    },
+    {
+      "features": [
         "is_friday",
         "kw_energy"
       ],
@@ -14869,36 +14894,6 @@
       "parents": [
         "is_friday+kw_signed",
         "kw_biden+kw_dow_2plus"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_energy",
-        "kw_economy",
-        "is_friday"
-      ],
-      "direction": "LONG",
-      "hold": 1,
-      "id": "e9fb576e22c1",
-      "n_cond": 3,
-      "train_trades": 11,
-      "train_win_rate": 81.8,
-      "train_avg": 0.471,
-      "test_trades": 3,
-      "test_win_rate": 100.0,
-      "test_avg": 0.564,
-      "combined_score": 90.9,
-      "origin": "crossover",
-      "born_date": "2026-05-17",
-      "weight": 1.0,
-      "parents": [
-        "kw_energy+kw_perfect",
-        "is_friday+kw_economy"
       ],
       "learn_stats": {
         "correct": 0,
