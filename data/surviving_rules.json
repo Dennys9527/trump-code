@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-09-26T17:34:56Z",
-    "evolved_rules_added": 44
+    "last_evolution": "2026-09-27T18:02:01Z",
+    "evolved_rules_added": 48
   },
   "rules": [
     {
@@ -12868,7 +12868,12 @@
       "origin": "mutation_replace",
       "born_date": "2026-09-26",
       "weight": 1.0,
-      "parent": "kw_beautiful+kw_economy+kw_interest_rate"
+      "parent": "kw_beautiful+kw_economy+kw_interest_rate",
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -13565,7 +13570,12 @@
       "parents": [
         "excl_heavy+kw_tariffs_2plus",
         "is_friday+kw_signed"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
