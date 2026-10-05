@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-10-04T17:57:55Z",
-    "evolved_rules_added": 43
+    "last_evolution": "2026-10-05T21:30:15Z",
+    "evolved_rules_added": 47
   },
   "rules": [
     {
@@ -13928,7 +13928,12 @@
       "parents": [
         "kw_biden_2plus+kw_tariffs",
         "is_friday+kw_interest_rate"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
