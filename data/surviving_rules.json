@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-10-09T19:12:27Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-10-10T18:10:52Z",
+    "evolved_rules_added": 45
   },
   "rules": [
     {
@@ -14885,28 +14885,29 @@
     },
     {
       "features": [
-        "is_friday",
-        "kw_energy"
+        "kw_thank_you_for_your_attention",
+        "questions_yes",
+        "kw_jobs",
+        "kw_economy"
       ],
       "direction": "LONG",
-      "hold": 1,
-      "id": "2fdadb9a598b",
-      "n_cond": 2,
-      "train_trades": 17,
-      "train_win_rate": 82.4,
-      "train_avg": 0.608,
-      "test_trades": 4,
+      "hold": 3,
+      "id": "0bb1bd6347a2",
+      "n_cond": 4,
+      "train_trades": 6,
+      "train_win_rate": 83.3,
+      "train_avg": 1.249,
+      "test_trades": 3,
       "test_win_rate": 100.0,
-      "test_avg": 0.51,
-      "combined_score": 91.2,
-      "origin": "distilled",
-      "born_date": "2026-03-15",
+      "test_avg": 0.622,
+      "combined_score": 91.7,
+      "origin": "crossover",
+      "born_date": "2026-10-10",
       "weight": 1.0,
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
+      "parents": [
+        "kw_executive_order+kw_jobs",
+        "kw_economy+kw_interest_rate"
+      ]
     }
   ]
 }
