@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-10-10T18:10:52Z",
-    "evolved_rules_added": 45
+    "last_evolution": "2026-10-11T18:35:50Z",
+    "evolved_rules_added": 46
   },
   "rules": [
     {
@@ -14907,7 +14907,12 @@
       "parents": [
         "kw_executive_order+kw_jobs",
         "kw_economy+kw_interest_rate"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     }
   ]
 }
