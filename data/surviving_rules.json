@@ -1,7 +1,7 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-10-29T19:23:53Z",
+    "last_evolution": "2026-10-30T18:57:58Z",
     "evolved_rules_added": 47
   },
   "rules": [
@@ -13714,7 +13714,12 @@
       "origin": "mutation_replace",
       "born_date": "2026-10-29",
       "weight": 1.0,
-      "parent": "kw_beautiful+open_tariffs+volume_falling_3d"
+      "parent": "kw_beautiful+open_tariffs+volume_falling_3d",
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
