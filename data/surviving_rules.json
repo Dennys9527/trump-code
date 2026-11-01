@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-10-31T18:07:00Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-11-01T18:43:46Z",
+    "evolved_rules_added": 44
   },
   "rules": [
     {
@@ -12956,7 +12956,12 @@
       "parents": [
         "kw_deal_2plus+kw_dow_2plus",
         "kw_deal+kw_signed"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -12978,7 +12983,12 @@
       "origin": "mutation_replace",
       "born_date": "2026-10-31",
       "weight": 1.0,
-      "parent": "kw_ban+kw_president_of_the_united_states+open_ban"
+      "parent": "kw_ban+kw_president_of_the_united_states+open_ban",
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -13184,6 +13194,30 @@
         "wrong": 0,
         "streak": 0
       }
+    },
+    {
+      "features": [
+        "kw_thank_you_for_your_attention",
+        "open_energy"
+      ],
+      "direction": "LONG",
+      "hold": 1,
+      "id": "0e7f998c6c81",
+      "n_cond": 2,
+      "train_trades": 17,
+      "train_win_rate": 88.2,
+      "train_avg": 0.171,
+      "test_trades": 7,
+      "test_win_rate": 100.0,
+      "test_avg": 0.669,
+      "combined_score": 94.1,
+      "origin": "crossover",
+      "born_date": "2026-11-01",
+      "weight": 1.0,
+      "parents": [
+        "kw_thank_you_for_your_attention+open_energy",
+        "kw_interest_rate+kw_thank_you_for_your_attention"
+      ]
     },
     {
       "features": [
@@ -14857,35 +14891,6 @@
       "parents": [
         "kw_interest_rate+kw_trade",
         "kw_beautiful+kw_tariffs_2plus"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "open_thank_you_for_your_attention",
-        "open_inflation"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "id": "021a4ac06fab",
-      "n_cond": 2,
-      "train_trades": 6,
-      "train_win_rate": 83.3,
-      "train_avg": 0.986,
-      "test_trades": 3,
-      "test_win_rate": 100.0,
-      "test_avg": 0.35,
-      "combined_score": 91.7,
-      "origin": "crossover",
-      "born_date": "2026-08-20",
-      "weight": 1.0,
-      "parents": [
-        "kw_tariffs_2plus+open_thank_you_for_your_attention",
-        "kw_economy+open_inflation"
       ],
       "learn_stats": {
         "correct": 0,
