@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-11-01T18:43:46Z",
-    "evolved_rules_added": 44
+    "last_evolution": "2026-11-02T22:34:05Z",
+    "evolved_rules_added": 42
   },
   "rules": [
     {
@@ -13217,7 +13217,12 @@
       "parents": [
         "kw_thank_you_for_your_attention+open_energy",
         "kw_interest_rate+kw_thank_you_for_your_attention"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
