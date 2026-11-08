@@ -1,7 +1,7 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-11-07T18:26:55Z",
+    "last_evolution": "2026-11-08T18:37:37Z",
     "evolved_rules_added": 48
   },
   "rules": [
@@ -13840,6 +13840,28 @@
     },
     {
       "features": [
+        "kw_great",
+        "volume_falling_3d",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "id": "e669302fb8c5",
+      "n_cond": 3,
+      "train_trades": 8,
+      "train_win_rate": 87.5,
+      "train_avg": 1.115,
+      "test_trades": 6,
+      "test_win_rate": 100.0,
+      "test_avg": 0.89,
+      "combined_score": 93.8,
+      "origin": "mutation_replace",
+      "born_date": "2026-11-08",
+      "weight": 1.0,
+      "parent": "kw_tariffs_2plus+open_thank_you_for_your_attention+volume_falling_3d"
+    },
+    {
+      "features": [
         "kw_deal_2plus",
         "kw_wonderful"
       ],
@@ -14868,35 +14890,6 @@
       "born_date": "2026-07-25",
       "weight": 1.0,
       "parent": "kw_signed+kw_tariffs+open_thank_you_for_your_attention",
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_never_let_you_down",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 1,
-      "id": "d18a86e6226c",
-      "n_cond": 2,
-      "train_trades": 8,
-      "train_win_rate": 100.0,
-      "train_avg": 0.618,
-      "test_trades": 6,
-      "test_win_rate": 83.3,
-      "test_avg": 0.678,
-      "combined_score": 91.7,
-      "origin": "crossover",
-      "born_date": "2026-08-11",
-      "weight": 1.0,
-      "parents": [
-        "kw_india+kw_never_let_you_down",
-        "kw_beautiful+open_thank_you_for_your_attention"
-      ],
       "learn_stats": {
         "correct": 0,
         "wrong": 0,
